@@ -2,6 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Montserrat — fonte variável */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Kodchasan */
+@font-face {
+	font-family: 'Kodchasan';
+	src: url('/fonts/Kodchasan/Kodchasan-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Kodchasan';
+	src: url('/fonts/Kodchasan/Kodchasan-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Kodchasan';
+	src: url('/fonts/Kodchasan/Kodchasan-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Kodchasan';
+	src: url('/fonts/Kodchasan/Kodchasan-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Kodchasan';
+	src: url('/fonts/Kodchasan/Kodchasan-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Kodchasan';
+	src: url('/fonts/Kodchasan/Kodchasan-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
 :root {
 	--amarelo: #FFCC00;
 	--cinza: #575556;
@@ -11,5 +71,5 @@
 body {
 	background-color: var(--preto);
 	color: #ffffff;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }

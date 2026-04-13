@@ -4,8 +4,9 @@ const config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Barlow', 'sans-serif'],
-				condensed: ['Barlow Condensed', 'sans-serif']
+				sans: ['Montserrat', 'sans-serif'],
+				condensed: ['Montserrat', 'sans-serif'],
+				kodchasan: ['Kodchasan', 'sans-serif']
 			},
 			colors: {
 				amarelo: '#FFCC00',
