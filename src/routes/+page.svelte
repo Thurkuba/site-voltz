@@ -7,7 +7,7 @@
 
 	<!-- Logo -->
 	<div class="absolute top-6 right-6">
-		<img src="/logo.png" alt="Voltz Cenografia" class="h-14 w-auto" />
+		<img src="/logo.svg" alt="Voltz Cenografia" class="h-14 w-auto" />
 	</div>
 
 	<!-- Conteúdo central -->
