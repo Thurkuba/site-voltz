@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--amarelo: #FFCC00;
+	--cinza: #575556;
+	--preto: #0a0a0a;
+}
+
+body {
+	background-color: var(--preto);
+	color: #ffffff;
+	font-family: 'Barlow', sans-serif;
+}
